@@ -99,7 +99,6 @@ def start_temp(start):
     return jsonify(temp_data)
 
     
-
 @app.route("/api/v1.0/<start>/<end>")
 def range_temp(start, end):
  # get the min/avg/max
